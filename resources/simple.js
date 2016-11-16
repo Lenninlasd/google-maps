@@ -1,5 +1,3 @@
-var center = [-7908084, 6177492];
-
 // This dummy layer tells Google Maps to switch to its default map type
 var googleLayer = new olgm.layer.Google();
 
@@ -11,8 +9,8 @@ var map = new ol.Map({
   ],
   target: 'map',
   view: new ol.View({
-    center: center,
-    zoom: 12
+    center: [-7908084, 6177492],
+    zoom: 4
   })
 });
 
